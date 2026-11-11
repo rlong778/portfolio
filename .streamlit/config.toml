@@ -1,0 +1,21 @@
+[server]
+enableStaticServing = true          # serves files in /static (the handwritten font)
+
+[theme]
+base = "light"
+primaryColor = "#2B4C7E"            # drafting blue
+backgroundColor = "#F3E5C0"         # manila
+secondaryBackgroundColor = "#EAD9AE"
+textColor = "#1E1E1E"
+borderColor = "#1E1E1E"             # thin black lines
+baseRadius = "none"                 # square corners everywhere
+showWidgetBorder = true
+font = "sans-serif"
+headingFont = "Architects Daughter, cursive"
+
+[[theme.fontFaces]]
+family = "Architects Daughter"
+url = "app/static/ArchitectsDaughter.ttf"
+
+[client]
+toolbarMode = "minimal"
